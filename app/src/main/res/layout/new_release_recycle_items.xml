@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/new_release"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="14dp"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="@dimen/layout_width_recycler"
+            android:layout_height="@dimen/layout_height_recycler"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/rounded_white_sneaker" />
+
+        <TextView
+            android:id="@+id/shoe_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/segoesemibold"
+            android:text="@string/upper_shoe_text_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/shoe_name_size"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.64" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/segoebold"
+            android:text="@string/_1082_95_kr"
+            android:textColor="@color/white"
+            android:textSize="@dimen/show_text_price"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="@+id/gender"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/gender"
+            app:layout_constraintTop_toBottomOf="@+id/gender"
+            app:layout_constraintVertical_bias="0.521" />
+
+        <TextView
+            android:id="@+id/gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/segoesemibold"
+            android:text="@string/middle_show_text_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/category_shoe_size"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="@+id/shoe_name"
+            app:layout_constraintTop_toBottomOf="@+id/shoe_name"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

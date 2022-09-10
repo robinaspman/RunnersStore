@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">NikeStore</string>
+    <string name="search_shoes">Search shoes…</string>
+    <string name="new_release">New Release</string>
+    <string name="upper_shoe_text_name">AIR MAX 200</string>
+    <string name="middle_show_text_name">Mens Shoes</string>
+    <string name="_1082_95_kr">1082.95 KR</string>
+    <string name="best_sellers">Best Sellers</string>
+    <string name="store_name">Welcome To\nThe Runners Store</string>
+    <string name="description_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="shoe_size">Shoe size</string>
+    <string name="price_product_details">4999 KR</string>
+    <string name="product_description_name">Air Max 200</string>
+    <string name="size_28">28</string>
+    <string name="size_29">29</string>
+    <string name="size_30">30</string>
+    <string name="size_32">32</string>
+    <string name="size_34">34</string>
+</resources>
