@@ -1,4 +1,4 @@
-package com.example.nikestore;
+package com.example.runnersstore;
 
 import android.content.Context;
 

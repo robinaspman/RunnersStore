@@ -1,4 +1,4 @@
-package com.example.nikestore.adapter;
+package com.example.runnersstore.adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -9,13 +9,12 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.example.nikestore.ProductDetails;
-import com.example.nikestore.R;
-import com.example.nikestore.model.NewRelease;
+import com.example.runnersstore.ProductDetails;
+import com.example.runnersstore.R;
+import com.example.runnersstore.model.NewRelease;
 
 import java.util.List;
 

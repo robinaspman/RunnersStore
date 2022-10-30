@@ -1,4 +1,4 @@
-package com.example.nikestore;
+package com.example.runnersstore;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -6,14 +6,13 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
-import com.example.nikestore.adapter.BestSellerRecyclerAdapter;
-import com.example.nikestore.adapter.NewReleaseRecyclerAdapter;
-import com.example.nikestore.model.BestSeller;
-import com.example.nikestore.model.NewRelease;
+import com.example.runnersstore.adapter.BestSellerRecyclerAdapter;
+import com.example.runnersstore.adapter.NewReleaseRecyclerAdapter;
+import com.example.runnersstore.model.BestSeller;
+import com.example.runnersstore.model.NewRelease;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
 

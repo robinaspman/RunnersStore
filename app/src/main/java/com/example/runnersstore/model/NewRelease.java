@@ -1,24 +1,12 @@
-package com.example.nikestore.model;
+package com.example.runnersstore.model;
 
-public class BestSeller {
+public class NewRelease {
 
     private String name;
     private String imageUrl;
+    private String gender;
     private String price;
     private String rating;
-    private String type;
-
-    public BestSeller(String name, String type, String imageUrl, String rating, String price) {
-        this.name = name;
-        this.imageUrl = imageUrl;
-        this.rating = rating;
-        this.price = price;
-        this.type = type;
-    }
-
-    public String getType() {
-        return type;
-    }
 
     public String getRating() {
         return rating;
@@ -28,8 +16,12 @@ public class BestSeller {
         this.rating = rating;
     }
 
-    public void setType(String type) {
-        this.type = type;
+    public NewRelease(String name, String imageUrl, String gender, String price, String rating) {
+        this.name = name;
+        this.imageUrl = imageUrl;
+        this.gender = gender;
+        this.price = price;
+        this.rating = rating;
     }
 
     public String getName() {
@@ -49,11 +41,11 @@ public class BestSeller {
     }
 
     public String getGender() {
-        return rating;
+        return gender;
     }
 
-    public void setGender(String rating) {
-        this.rating = rating;
+    public void setGender(String gender) {
+        this.gender = gender;
     }
 
     public String getPrice() {

@@ -1,4 +1,4 @@
-package com.example.nikestore;
+package com.example.runnersstore;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,8 +9,6 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.google.android.material.snackbar.Snackbar;
 
 public class ProductDetails extends AppCompatActivity {
 
